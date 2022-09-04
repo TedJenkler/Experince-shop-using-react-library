@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+  background-color: white;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+
+.Hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.Hero--photo {
+  max-width: 400px;
+  align-self: center;
+}
+
+.Hero--header {
+  margin-bottom: 16px;
+}
+
+.Hero--text {
+  margin-top: 0;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  position: relative;
+}
+
+.card--img {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  height: 14px;
+}
+
+.rating {
+  color: grey;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.cards-list {
+  display: flex;
+}
+
+.card-badge {
+  position:absolute;
+  width: 85px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-weight: bold;
+}
